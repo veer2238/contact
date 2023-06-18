@@ -1,0 +1,40 @@
+@import "../../../../css-config/mixins.scss";
+
+.btn{
+    display: flex;
+    justify-content: center;
+
+
+button{
+    padding: 8px;
+    margin: 40px;
+}
+}
+
+.mainc{
+    display: flex;
+    justify-content: center;
+ 
+    margin: 30px 0;
+
+    .container{
+    background-color: #ffffff;
+    width: 500px;
+    height: 320px;
+    
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+
+    .image-container{
+        position: relative;
+
+        img{
+            position: relative;
+            width: 460px;
+            height: 280px;
+           
+        }
+    }
+}
+}
